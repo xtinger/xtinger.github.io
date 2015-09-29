@@ -76,21 +76,29 @@
 		
 		<option value="//api/name/gender">gender</option>
 		
+		<option value="//api/name/hasMyOpinion">hasMyOpinion</option>
+		
 		<option value="//api/name/hasMyOpinionOrRating">hasMyOpinionOrRating</option>
 		
 		<option value="//api/name/imageId">imageId</option>
 		
 		<option value="//api/name/imageName">imageName</option>
 		
+		<option value="//api/name/imageNameNew">imageNameNew</option>
+		
 		<option value="//api/name/isModeratorOrAdmin">isModeratorOrAdmin</option>
 		
 		<option value="//api/name/isNewContact">isNewContact</option>
+		
+		<option value="//api/name/isWatchedByMe">isWatchedByMe</option>
 		
 		<option value="//api/name/lastName">lastName</option>
 		
 		<option value="//api/name/lastNameNew">lastNameNew</option>
 		
 		<option value="//api/name/message">message</option>
+		
+		<option value="//api/name/mySentContactStatus">mySentContactStatus</option>
 		
 		<option value="//api/name/opinionsCounter">opinionsCounter</option>
 		
@@ -108,9 +116,13 @@
 		
 		<option value="//api/name/status">status</option>
 		
+		<option value="//api/name/statusNew">statusNew</option>
+		
 		<option value="//api/name/subscribed">subscribed</option>
 		
 		<option value="//api/name/unread">unread</option>
+		
+		<option value="//api/name/userToUsContactStatus">userToUsContactStatus</option>
 		
 	</optgroup>
 	
@@ -118,17 +130,15 @@
 	
 	<optgroup label="Class Methods">
 		
+		<option value="//api/name/birthDayFormatter">+ birthDayFormatter</option>
+		
+		<option value="//api/name/createMockUsersArray:">+ createMockUsersArray:</option>
+		
 		<option value="//api/name/usersToIDsArray:">+ usersToIDsArray:</option>
 		
 	</optgroup>
 	
 
-	
-	<optgroup label="Instance Methods">
-		
-		<option value="//api/name/deserialize:">- deserialize:</option>
-		
-	</optgroup>
 	
 	
 </select>
@@ -184,7 +194,7 @@
 			
 			
 			<div class="method-subsection brief-description">
-				<p>first_<a href="../Constants/name.html">name</a> - имя пользователя</p>
+				<p>@api first_<a href="../Constants/name.html">name</a> - имя пользователя</p>
 			</div>
 			
 		    
@@ -201,7 +211,7 @@
 			
 			<div class="method-subsection discussion-section">
 				<h4 class="method-subtitle">Discussion</h4>
-				<p>first_<a href="../Constants/name.html">name</a> - имя пользователя</p>
+				<p>@api first_<a href="../Constants/name.html">name</a> - имя пользователя</p>
 			</div>
 			
 
@@ -358,6 +368,10 @@
 		<div class="method-info-container">
 			
 			
+			<div class="method-subsection brief-description">
+				<p>email пользователя</p>
+			</div>
+			
 		    
 
 			<div class="method-subsection method-declaration"><code>@property (nonatomic, copy) NSString *email</code></div>
@@ -369,6 +383,11 @@
 
 			
 
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>email пользователя</p>
+			</div>
 			
 
 			
@@ -395,6 +414,10 @@
 		<div class="method-info-container">
 			
 			
+			<div class="method-subsection brief-description">
+				<p>birthday - дата рождения</p>
+			</div>
+			
 		    
 
 			<div class="method-subsection method-declaration"><code>@property (nonatomic, strong) NSDate *birthDate</code></div>
@@ -406,6 +429,11 @@
 
 			
 
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>birthday - дата рождения</p>
+			</div>
 			
 
 			
@@ -432,6 +460,10 @@
 		<div class="method-info-container">
 			
 			
+			<div class="method-subsection brief-description">
+				<p>age - возраст (лет)</p>
+			</div>
+			
 		    
 
 			<div class="method-subsection method-declaration"><code>@property (nonatomic, strong) NSNumber *age</code></div>
@@ -443,6 +475,11 @@
 
 			
 
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>age - возраст (лет)</p>
+			</div>
 			
 
 			
@@ -469,6 +506,10 @@
 		<div class="method-info-container">
 			
 			
+			<div class="method-subsection brief-description">
+				<p>gender - пол (male,female)</p>
+			</div>
+			
 		    
 
 			<div class="method-subsection method-declaration"><code>@property (nonatomic, copy) NSString *gender</code></div>
@@ -480,6 +521,11 @@
 
 			
 
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>gender - пол (male,female)</p>
+			</div>
 			
 
 			
@@ -506,6 +552,10 @@
 		<div class="method-info-container">
 			
 			
+			<div class="method-subsection brief-description">
+				<p>subscribed - текущий пользователь подписан на рассылку</p>
+			</div>
+			
 		    
 
 			<div class="method-subsection method-declaration"><code>@property (nonatomic) BOOL subscribed</code></div>
@@ -517,6 +567,11 @@
 
 			
 
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>subscribed - текущий пользователь подписан на рассылку</p>
+			</div>
 			
 
 			
@@ -543,6 +598,10 @@
 		<div class="method-info-container">
 			
 			
+			<div class="method-subsection brief-description">
+				<p>phone - телефон</p>
+			</div>
+			
 		    
 
 			<div class="method-subsection method-declaration"><code>@property (nonatomic, strong) Phone *phone</code></div>
@@ -554,6 +613,11 @@
 
 			
 
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>phone - телефон</p>
+			</div>
 			
 
 			
@@ -580,6 +644,10 @@
 		<div class="method-info-container">
 			
 			
+			<div class="method-subsection brief-description">
+				<p>image_url - URL автара</p>
+			</div>
+			
 		    
 
 			<div class="method-subsection method-declaration"><code>@property (nonatomic, copy) NSString *imageName</code></div>
@@ -591,6 +659,11 @@
 
 			
 
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>image_url - URL автара</p>
+			</div>
 			
 
 			
@@ -617,6 +690,10 @@
 		<div class="method-info-container">
 			
 			
+			<div class="method-subsection brief-description">
+				<p>set</p>
+			</div>
+			
 		    
 
 			<div class="method-subsection method-declaration"><code>@property (nonatomic, copy) NSString *imageId</code></div>
@@ -628,6 +705,11 @@
 
 			
 
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>set</p>
+			</div>
 			
 
 			
@@ -654,6 +736,10 @@
 		<div class="method-info-container">
 			
 			
+			<div class="method-subsection brief-description">
+				<p>locality - регион пользователя</p>
+			</div>
+			
 		    
 
 			<div class="method-subsection method-declaration"><code>@property (nonatomic, strong) Region *region</code></div>
@@ -665,6 +751,11 @@
 
 			
 
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>locality - регион пользователя</p>
+			</div>
 			
 
 			
@@ -912,6 +1003,190 @@
 		</div>
 	</div>
 </div><div class="section-method">
+	<a name="//api/name/hasMyOpinion" title="hasMyOpinion"></a>
+	<h3 class="method-title"><code><a href="#//api/name/hasMyOpinion">&nbsp;&nbsp;hasMyOpinion</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>has_my_opinion - текущему пользователю был отправлен отзыв в контексте события</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (nonatomic) BOOL hasMyOpinion</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>has_my_opinion - текущему пользователю был отправлен отзыв в контексте события</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">User.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/mySentContactStatus" title="mySentContactStatus"></a>
+	<h3 class="method-title"><code><a href="#//api/name/mySentContactStatus">&nbsp;&nbsp;mySentContactStatus</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>has_my_contact - текущий пользователь в контактах у данного пользователя</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (nonatomic) ContactStatusType mySentContactStatus</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>has_my_contact - текущий пользователь в контактах у данного пользователя</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">User.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/userToUsContactStatus" title="userToUsContactStatus"></a>
+	<h3 class="method-title"><code><a href="#//api/name/userToUsContactStatus">&nbsp;&nbsp;userToUsContactStatus</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>is_my_contact - данный пользователь в контактах у текущего пользователя</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (nonatomic) ContactStatusType userToUsContactStatus</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>is_my_contact - данный пользователь в контактах у текущего пользователя</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">User.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/isWatchedByMe" title="isWatchedByMe"></a>
+	<h3 class="method-title"><code><a href="#//api/name/isWatchedByMe">&nbsp;&nbsp;isWatchedByMe</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>is_followed - текущий пользователь подписан на события данного пользователя</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (nonatomic) BOOL isWatchedByMe</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>is_followed - текущий пользователь подписан на события данного пользователя</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">User.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
 	<a name="//api/name/isNewContact" title="isNewContact"></a>
 	<h3 class="method-title"><code><a href="#//api/name/isNewContact">&nbsp;&nbsp;isNewContact</a></code>
 </h3>
@@ -921,6 +1196,10 @@
 
 		<div class="method-info-container">
 			
+			
+			<div class="method-subsection brief-description">
+				<p>is_new - визитка данного пользователя еще не подтверждена текущим пользователем</p>
+			</div>
 			
 		    
 
@@ -933,6 +1212,11 @@
 
 			
 
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>is_new - визитка данного пользователя еще не подтверждена текущим пользователем</p>
+			</div>
 			
 
 			
@@ -996,6 +1280,10 @@
 		<div class="method-info-container">
 			
 			
+			<div class="method-subsection brief-description">
+				<p>email_confirm - <a href="#//api/name/email">email</a> подтвержден</p>
+			</div>
+			
 		    
 
 			<div class="method-subsection method-declaration"><code>@property (nonatomic) BOOL emailConfirmed</code></div>
@@ -1007,6 +1295,11 @@
 
 			
 
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>email_confirm - <a href="#//api/name/email">email</a> подтвержден</p>
+			</div>
 			
 
 			
@@ -1033,6 +1326,10 @@
 		<div class="method-info-container">
 			
 			
+			<div class="method-subsection brief-description">
+				<p>phone_confirm - телефон подтвержден</p>
+			</div>
+			
 		    
 
 			<div class="method-subsection method-declaration"><code>@property (nonatomic) BOOL phoneConfirmed</code></div>
@@ -1044,6 +1341,11 @@
 
 			
 
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>phone_confirm - телефон подтвержден</p>
+			</div>
 			
 
 			
@@ -1070,6 +1372,10 @@
 		<div class="method-info-container">
 			
 			
+			<div class="method-subsection brief-description">
+				<p>get</p>
+			</div>
+			
 		    
 
 			<div class="method-subsection method-declaration"><code>@property (nonatomic, copy, readonly) NSString *fullname</code></div>
@@ -1081,6 +1387,11 @@
 
 			
 
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>get</p>
+			</div>
 			
 
 			
@@ -1189,6 +1500,98 @@
 		</div>
 	</div>
 </div><div class="section-method">
+	<a name="//api/name/imageNameNew" title="imageNameNew"></a>
+	<h3 class="method-title"><code><a href="#//api/name/imageNameNew">&nbsp;&nbsp;imageNameNew</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>new_im<a href="#//api/name/age">age</a>_url - отредактированный URL аватара, до прохождения модерации</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (nonatomic, copy) NSString *imageNameNew</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>new_im<a href="#//api/name/age">age</a>_url - отредактированный URL аватара, до прохождения модерации</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">User.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/statusNew" title="statusNew"></a>
+	<h3 class="method-title"><code><a href="#//api/name/statusNew">&nbsp;&nbsp;statusNew</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>new<em><a href="#//api/name/status">status</a></em>text - текущего пользователя, до прохождения модерации</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (nonatomic, copy) NSString *statusNew</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>new<em><a href="#//api/name/status">status</a></em>text - текущего пользователя, до прохождения модерации</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">User.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
 	<a name="//api/name/eventParticipationType" title="eventParticipationType"></a>
 	<h3 class="method-title"><code><a href="#//api/name/eventParticipationType">&nbsp;&nbsp;eventParticipationType</a></code>
 </h3>
@@ -1236,6 +1639,10 @@
 		<div class="method-info-container">
 			
 			
+			<div class="method-subsection brief-description">
+				<p>Текущему пользователю был отправлен отзыв или поставлен рейтинг</p>
+			</div>
+			
 		    
 
 			<div class="method-subsection method-declaration"><code>@property (nonatomic, readonly) BOOL hasMyOpinionOrRating</code></div>
@@ -1247,6 +1654,11 @@
 
 			
 
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Текущему пользователю был отправлен отзыв или поставлен рейтинг</p>
+			</div>
 			
 
 			
@@ -1273,6 +1685,10 @@
 		<div class="method-info-container">
 			
 			
+			<div class="method-subsection brief-description">
+				<p>пользователь - модератор или админ в организации</p>
+			</div>
+			
 		    
 
 			<div class="method-subsection method-declaration"><code>@property (nonatomic, readonly) BOOL isModeratorOrAdmin</code></div>
@@ -1284,6 +1700,11 @@
 
 			
 
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>пользователь - модератор или админ в организации</p>
+			</div>
 			
 
 			
@@ -1320,7 +1741,24 @@
 
 		    
 			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>users</code></th>
+						<td><p>массив пользователей</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
 
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>массив ID</p>
+			</div>
 			
 
 			
@@ -1346,8 +1784,8 @@
 		</div>
 	</div>
 </div><div class="section-method">
-	<a name="//api/name/deserialize:" title="deserialize:"></a>
-	<h3 class="method-title"><code><a href="#//api/name/deserialize:">&ndash;&nbsp;deserialize:</a></code>
+	<a name="//api/name/createMockUsersArray:" title="createMockUsersArray:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/createMockUsersArray:">+&nbsp;createMockUsersArray:</a></code>
 </h3>
 
 	<div class="method-info">
@@ -1357,12 +1795,12 @@
 			
 			
 			<div class="method-subsection brief-description">
-				<p>Разбор данных</p>
+				<p>Создается фейковый массив пользователей</p>
 			</div>
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>- (void)deserialize:(NSDictionary *)<em>dictionary</em></code></div>
+			<div class="method-subsection method-declaration"><code>+ (NSMutableArray *)createMockUsersArray:(NSInteger)<em>count</em></code></div>
 
 		    
 			
@@ -1371,19 +1809,63 @@
 				<table class="argument-def parameter-def">
 				
 					<tr>
-						<th scope="row" class="argument-name"><code>dictionary</code></th>
-						<td><p>Данные</p>
-
-<ul>
-<li>first_<a href="../Constants/name.html">name</a> - имя пользователя</li>
-<li>last_<a href="../Constants/name.html">name</a> - фамилия</li>
-<li>new_first_<a href="../Constants/name.html">name</a> - имя текущего пользователя, до прохождения модерации</li>
-</ul>
-</td>
+						<th scope="row" class="argument-name"><code>count</code></th>
+						<td><p>кол-во элементов массива</p></td>
 					</tr>
 				
 				</table>
 			</div>
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>Массив пользователей</p>
+			</div>
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Создается фейковый массив пользователей</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">User.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/birthDayFormatter" title="birthDayFormatter"></a>
+	<h3 class="method-title"><code><a href="#//api/name/birthDayFormatter">+&nbsp;birthDayFormatter</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>NSDateFormatter для представления дня рождения пользователя</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (NSDateFormatter *)birthDayFormatter</code></div>
+
+		    
 			
 
 			
@@ -1393,7 +1875,7 @@
 			
 			<div class="method-subsection discussion-section">
 				<h4 class="method-subtitle">Discussion</h4>
-				<p>Разбор данных</p>
+				<p>NSDateFormatter для представления дня рождения пользователя</p>
 			</div>
 			
 
