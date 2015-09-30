@@ -56,6 +56,8 @@
 		
 		<option value="//api/name/about">about</option>
 		
+		<option value="//api/name/accessType">accessType</option>
+		
 		<option value="//api/name/age">age</option>
 		
 		<option value="//api/name/birthDate">birthDate</option>
@@ -159,7 +161,7 @@
 					<div class="section section-specification"><table cellspacing="0"><tbody>
 						<tr>
 	<th>Inherits from</th>
-	<td>EFLModel : NSObject</td>
+	<td><a href="../Classes/Model.html">Model</a> : NSObject</td>
 </tr><tr>
 	<th>Conforms to</th>
 	<td>NSCoding</td>
@@ -194,7 +196,7 @@
 			
 			
 			<div class="method-subsection brief-description">
-				<p>@api first_<a href="../Constants/name.html">name</a> - имя пользователя</p>
+				<p>@api first_name - имя пользователя</p>
 			</div>
 			
 		    
@@ -211,7 +213,7 @@
 			
 			<div class="method-subsection discussion-section">
 				<h4 class="method-subtitle">Discussion</h4>
-				<p>@api first_<a href="../Constants/name.html">name</a> - имя пользователя</p>
+				<p>@api first_name - имя пользователя</p>
 			</div>
 			
 
@@ -240,7 +242,7 @@
 			
 			
 			<div class="method-subsection brief-description">
-				<p>last_<a href="../Constants/name.html">name</a> - фамилия</p>
+				<p>last_name - фамилия</p>
 			</div>
 			
 		    
@@ -257,7 +259,7 @@
 			
 			<div class="method-subsection discussion-section">
 				<h4 class="method-subtitle">Discussion</h4>
-				<p>last_<a href="../Constants/name.html">name</a> - фамилия</p>
+				<p>last_name - фамилия</p>
 			</div>
 			
 
@@ -553,7 +555,8 @@
 			
 			
 			<div class="method-subsection brief-description">
-				<p>subscribed - текущий пользователь подписан на рассылку</p>
+				<p>subscribed - текущий пользователь подписан на рассылку
+@todo что за рассылка?</p>
 			</div>
 			
 		    
@@ -570,7 +573,8 @@
 			
 			<div class="method-subsection discussion-section">
 				<h4 class="method-subtitle">Discussion</h4>
-				<p>subscribed - текущий пользователь подписан на рассылку</p>
+				<p>subscribed - текущий пользователь подписан на рассылку
+@todo что за рассылка?</p>
 			</div>
 			
 
@@ -976,6 +980,11 @@
 		<div class="method-info-container">
 			
 			
+			<div class="method-subsection brief-description">
+				<p>Текущая организация для пользователя
+@todo сделать список организаций?</p>
+			</div>
+			
 		    
 
 			<div class="method-subsection method-declaration"><code>@property (nonatomic, strong) Organization *organization</code></div>
@@ -987,6 +996,60 @@
 
 			
 
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Текущая организация для пользователя
+@todo сделать список организаций?</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">User.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/accessType" title="accessType"></a>
+	<h3 class="method-title"><code><a href="#//api/name/accessType">&nbsp;&nbsp;accessType</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Права пользователя (moderator, administrator, blocked)
+@todo разобраться (назначение)</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (nonatomic) UserAccessType accessType</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Права пользователя (moderator, administrator, blocked)
+@todo разобраться (назначение)</p>
+			</div>
 			
 
 			
@@ -1419,7 +1482,7 @@
 			
 			
 			<div class="method-subsection brief-description">
-				<p>new_first_<a href="../Constants/name.html">name</a> - имя текущего пользователя, до прохождения модерации</p>
+				<p>new_first_name - имя текущего пользователя, до прохождения модерации</p>
 			</div>
 			
 		    
@@ -1436,7 +1499,7 @@
 			
 			<div class="method-subsection discussion-section">
 				<h4 class="method-subtitle">Discussion</h4>
-				<p>new_first_<a href="../Constants/name.html">name</a> - имя текущего пользователя, до прохождения модерации</p>
+				<p>new_first_name - имя текущего пользователя, до прохождения модерации</p>
 			</div>
 			
 
@@ -1465,7 +1528,7 @@
 			
 			
 			<div class="method-subsection brief-description">
-				<p>new_last_<a href="../Constants/name.html">name</a> - фамилия текущего пользователя, до прохождения модерации</p>
+				<p>new_last_name - фамилия текущего пользователя, до прохождения модерации</p>
 			</div>
 			
 		    
@@ -1482,7 +1545,7 @@
 			
 			<div class="method-subsection discussion-section">
 				<h4 class="method-subtitle">Discussion</h4>
-				<p>new_last_<a href="../Constants/name.html">name</a> - фамилия текущего пользователя, до прохождения модерации</p>
+				<p>new_last_name - фамилия текущего пользователя, до прохождения модерации</p>
 			</div>
 			
 
@@ -1907,7 +1970,7 @@
 				<footer>
 					<div class="footer-copyright">
 						
-						<p class="copyright">Copyright &copy; 2015 Emanor. All rights reserved. Updated: 2015-09-29</p>
+						<p class="copyright">Copyright &copy; 2015 Emanor. All rights reserved. Updated: 2015-09-30</p>
 						
 						
 						<p class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2.1 (build 1334)</a>.</p>
