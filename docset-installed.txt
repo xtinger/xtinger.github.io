@@ -1,0 +1,4 @@
+Documentation set was installed to Xcode!
+
+Path: /Users/denis/Library/Developer/Shared/Documentation/DocSets/com.emanor.meetingat.MeetingAt.docset
+Time: 2015-09-30 11:59:55 +0000
