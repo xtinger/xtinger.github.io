@@ -43,6 +43,8 @@
 							<select id="jump-to">
 	<option value="top">Jump To&#133;</option>
 	
+	<option value="overview">Overview</option>
+	
 
 	
 	
@@ -52,17 +54,35 @@
 
 	
 	
-
-	
-
-	
-	<optgroup label="Instance Methods">
+	<optgroup label="Properties">
 		
-		<option value="//api/name/deserialize:">- deserialize:</option>
+		<option value="//api/name/contacts">contacts</option>
 		
-		<option value="//api/name/serialize">- serialize</option>
+		<option value="//api/name/descr">descr</option>
+		
+		<option value="//api/name/imageId">imageId</option>
+		
+		<option value="//api/name/imageName">imageName</option>
+		
+		<option value="//api/name/images">images</option>
+		
+		<option value="//api/name/initialMemberStatus">initialMemberStatus</option>
+		
+		<option value="//api/name/isPrivate">isPrivate</option>
+		
+		<option value="//api/name/minimalStatusToInviteToOrganization">minimalStatusToInviteToOrganization</option>
+		
+		<option value="//api/name/organizationType">organizationType</option>
+		
+		<option value="//api/name/title">title</option>
+		
+		<option value="//api/name/userStatus">userStatus</option>
 		
 	</optgroup>
+	
+
+	
+
 	
 	
 </select>
@@ -92,6 +112,14 @@
 					
 
                     
+					
+					<div class="section section-overview">
+						<a title="Overview" name="overview"></a>
+						<h2 class="subtitle subtitle-overview">Overview</h2>
+						<p>Организация</p>
+					</div>
+					
+					
 
 					
 					
@@ -104,8 +132,8 @@
 
 						<div class="task-list">
 							<div class="section-method">
-	<a name="//api/name/deserialize:" title="deserialize:"></a>
-	<h3 class="method-title"><code><a href="#//api/name/deserialize:">&ndash;&nbsp;deserialize:</a></code>
+	<a name="//api/name/title" title="title"></a>
+	<h3 class="method-title"><code><a href="#//api/name/title">&nbsp;&nbsp;title</a></code>
 </h3>
 
 	<div class="method-info">
@@ -114,9 +142,13 @@
 		<div class="method-info-container">
 			
 			
+			<div class="method-subsection brief-description">
+				<p>Название</p>
+			</div>
+			
 		    
 
-			<div class="method-subsection method-declaration"><code>- (void)deserialize:(NSDictionary *)<em>dictionary</em></code></div>
+			<div class="method-subsection method-declaration"><code>@property (nonatomic, copy) NSString *title</code></div>
 
 		    
 			
@@ -125,6 +157,11 @@
 
 			
 
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Название</p>
+			</div>
 			
 
 			
@@ -134,15 +171,15 @@
 			
 			<div class="method-subsection declared-in-section">
 				<h4 class="method-subtitle">Declared In</h4>
-				<p><code class="declared-in-ref">Model.h</code></p>
+				<p><code class="declared-in-ref">Organization.h</code></p>
 			</div>
 			
 			
 		</div>
 	</div>
 </div><div class="section-method">
-	<a name="//api/name/serialize" title="serialize"></a>
-	<h3 class="method-title"><code><a href="#//api/name/serialize">&ndash;&nbsp;serialize</a></code>
+	<a name="//api/name/descr" title="descr"></a>
+	<h3 class="method-title"><code><a href="#//api/name/descr">&nbsp;&nbsp;descr</a></code>
 </h3>
 
 	<div class="method-info">
@@ -151,9 +188,13 @@
 		<div class="method-info-container">
 			
 			
+			<div class="method-subsection brief-description">
+				<p>Дополнительные текст, описание</p>
+			</div>
+			
 		    
 
-			<div class="method-subsection method-declaration"><code>- (NSMutableDictionary *)serialize</code></div>
+			<div class="method-subsection method-declaration"><code>@property (nonatomic, copy) NSString *descr</code></div>
 
 		    
 			
@@ -162,6 +203,11 @@
 
 			
 
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Дополнительные текст, описание</p>
+			</div>
 			
 
 			
@@ -171,7 +217,421 @@
 			
 			<div class="method-subsection declared-in-section">
 				<h4 class="method-subtitle">Declared In</h4>
-				<p><code class="declared-in-ref">Model.h</code></p>
+				<p><code class="declared-in-ref">Organization.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/userStatus" title="userStatus"></a>
+	<h3 class="method-title"><code><a href="#//api/name/userStatus">&nbsp;&nbsp;userStatus</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Статус пользователя</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (nonatomic, strong) NSString *userStatus</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Статус пользователя</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">Organization.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/organizationType" title="organizationType"></a>
+	<h3 class="method-title"><code><a href="#//api/name/organizationType">&nbsp;&nbsp;organizationType</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Тип организации</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (nonatomic) enum OrganizationType organizationType</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Тип организации</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">Organization.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/imageName" title="imageName"></a>
+	<h3 class="method-title"><code><a href="#//api/name/imageName">&nbsp;&nbsp;imageName</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>URL изображения</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (nonatomic, copy) NSString *imageName</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>URL изображения</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">Organization.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/imageId" title="imageId"></a>
+	<h3 class="method-title"><code><a href="#//api/name/imageId">&nbsp;&nbsp;imageId</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>ID изображения - для назначения картинки аватара</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (nonatomic, copy) NSString *imageId</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>ID изображения - для назначения картинки аватара</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">Organization.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/images" title="images"></a>
+	<h3 class="method-title"><code><a href="#//api/name/images">&nbsp;&nbsp;images</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Список изображений</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (nonatomic, strong) NSMutableArray *images</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Список изображений</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">Organization.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/isPrivate" title="isPrivate"></a>
+	<h3 class="method-title"><code><a href="#//api/name/isPrivate">&nbsp;&nbsp;isPrivate</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Организация закрытого типа</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (nonatomic) BOOL isPrivate</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Организация закрытого типа</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">Organization.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/minimalStatusToInviteToOrganization" title="minimalStatusToInviteToOrganization"></a>
+	<h3 class="method-title"><code><a href="#//api/name/minimalStatusToInviteToOrganization">&nbsp;&nbsp;minimalStatusToInviteToOrganization</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Минимальный статус пользователя, дающий право на приглашение в организацию</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (nonatomic) MinimalStatusToInviteToOrganization minimalStatusToInviteToOrganization</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Минимальный статус пользователя, дающий право на приглашение в организацию</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">Organization.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/initialMemberStatus" title="initialMemberStatus"></a>
+	<h3 class="method-title"><code><a href="#//api/name/initialMemberStatus">&nbsp;&nbsp;initialMemberStatus</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Статус, присваиваемый пользователю по умолчанию, при добавлению в организацию</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (nonatomic) InitialMemberStatus initialMemberStatus</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Статус, присваиваемый пользователю по умолчанию, при добавлению в организацию</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">Organization.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/contacts" title="contacts"></a>
+	<h3 class="method-title"><code><a href="#//api/name/contacts">&nbsp;&nbsp;contacts</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Контакты организации (Массив OrganizationContact)</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (nonatomic, strong) NSArray *contacts</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Контакты организации (Массив OrganizationContact)</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">Organization.h</code></p>
 			</div>
 			
 			
