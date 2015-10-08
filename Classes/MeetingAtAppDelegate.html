@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 
-	<title>EFLImagesStore Class Reference</title>
+	<title>MeetingAtAppDelegate Class Reference</title>
 
 	<link rel="stylesheet" href="../css/style.css">
 	<meta name="viewport" content="initial-scale=1, maximum-scale=1.4">
@@ -58,7 +58,9 @@
 	
 	<optgroup label="Instance Methods">
 		
-		<option value="//api/name/putImage:andMakeRoundedForKey:">- putImage:andMakeRoundedForKey:</option>
+		<option value="//api/name/generateInstallationID">- generateInstallationID</option>
+		
+		<option value="//api/name/refreshBadges:">- refreshBadges:</option>
 		
 	</optgroup>
 	
@@ -75,16 +77,19 @@
 		<div id="overview_contents" class="container">
 			<div id="content">
 				<main role="main">
-					<h1 class="title">EFLImagesStore Class Reference</h1>
+					<h1 class="title">MeetingAtAppDelegate Class Reference</h1>
 
 					
 					<div class="section section-specification"><table cellspacing="0"><tbody>
 						<tr>
 	<th>Inherits from</th>
-	<td>NSObject</td>
+	<td>UIResponder</td>
+</tr><tr>
+	<th>Conforms to</th>
+	<td>UIApplicationDelegate</td>
 </tr><tr>
 	<th>Declared in</th>
-	<td>EFLImagesStore.h<br />EFLImagesStore.m</td>
+	<td>MeetingAtAppDelegate.h<br />MeetingAtAppDelegate.m</td>
 </tr>
 						</tbody></table></div>
 					
@@ -102,8 +107,8 @@
 
 						<div class="task-list">
 							<div class="section-method">
-	<a name="//api/name/putImage:andMakeRoundedForKey:" title="putImage:andMakeRoundedForKey:"></a>
-	<h3 class="method-title"><code><a href="#//api/name/putImage:andMakeRoundedForKey:">&ndash;&nbsp;putImage:andMakeRoundedForKey:</a></code>
+	<a name="//api/name/refreshBadges:" title="refreshBadges:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/refreshBadges:">&ndash;&nbsp;refreshBadges:</a></code>
 </h3>
 
 	<div class="method-info">
@@ -113,12 +118,12 @@
 			
 			
 			<div class="method-subsection brief-description">
-				<p>Взять незакругленную картинку, закруглить и положить в кеш с пометкой ROUNDED, вернуть закругленную картинку</p>
+				<p>/</p>
 			</div>
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>- (UIImage *)putImage:(UIImage *)<em>image</em> andMakeRoundedForKey:(NSString *)<em>key</em></code></div>
+			<div class="method-subsection method-declaration"><code>- (void)refreshBadges:(NSNotification *)<em>notification</em></code></div>
 
 		    
 			
@@ -130,7 +135,7 @@
 			
 			<div class="method-subsection discussion-section">
 				<h4 class="method-subtitle">Discussion</h4>
-				<p>Взять незакругленную картинку, закруглить и положить в кеш с пометкой ROUNDED, вернуть закругленную картинку</p>
+				<p>/</p>
 			</div>
 			
 
@@ -141,7 +146,53 @@
 			
 			<div class="method-subsection declared-in-section">
 				<h4 class="method-subtitle">Declared In</h4>
-				<p><code class="declared-in-ref">EFLImagesStore.h</code></p>
+				<p><code class="declared-in-ref">MeetingAtAppDelegate.m</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/generateInstallationID" title="generateInstallationID"></a>
+	<h3 class="method-title"><code><a href="#//api/name/generateInstallationID">&ndash;&nbsp;generateInstallationID</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>*</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)generateInstallationID</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>*</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">MeetingAtAppDelegate.m</code></p>
 			</div>
 			
 			
