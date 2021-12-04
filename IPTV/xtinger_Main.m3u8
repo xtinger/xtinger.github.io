@@ -1,0 +1,82 @@
+#EXTM3U
+#EXTINF:0,Первый канал HD
+#EXTGRP:Общие
+http://78.58.133.179:28000/play/a002/index.m3u8
+#EXTINF:0,Первый канал FHD
+#EXTGRP:Общие
+http://91.192.168.251:5050
+#EXTINF:0,Россия 1 HD
+#EXTGRP:Общие
+http://stream-nexttv.comboplayer.ru/hlsl/1/Rossiya_HD/04.m3u8
+#EXTINF:0,Россия 24
+#EXTGRP:Общие
+http://cdnmg.secure.live.rtr-vesti.ru/hls/russia_24/playlist_3.m3u8
+#EXTINF:0,Россия 24 HD
+#EXTGRP:Общие
+http://cdnmg.secure.live.rtr-vesti.ru/hls/russia_24/playlist_3.m3u8
+#EXTINF:0,НТВ HD
+#EXTGRP:Общие
+http://78.58.133.179:28000/play/a001/index.m3u8
+#EXTINF:0,НТВ FHD
+#EXTGRP:Общие
+https://my.teleelevidenie.com/play/hls-custom-c177-te548c4888657447f657fca2ade27cbdc2132cd1e11ac405e437d7141b876943a.m3u8
+#EXTINF:0,Рен ТВ HD
+#EXTGRP:Общие
+http://ad-hls-rentv.cdnvideo.ru/ren/smil:ren.smil/chunklist_b1024000.m3u8
+#EXTINF:0,ТНТ HD
+#EXTGRP:Общие
+https://bl.uma.media/live/410338/HLS/6307840_7,4280320_6,2703360_5,1408000_4,1070080_3,732160_2,394240_1/1613013807/79ad96b5b87fdce129191b83aaf2fb46/playlist.m3u8
+#EXTINF:0,ТВ 3
+#EXTGRP:Общие
+http://zabava-htlive.cdn.ngenix.net/hls/CH_TV3/bw2000000/variant.m3u8
+#EXTINF:0,ТВ-3 FHD
+#EXTGRP:Общие
+https://bl.uma.media/live/407373/HLS/6307840_7,4280320_6,2703360_5,1408000_4,1070080_3,732160_2,394240_1/1613013859/5fdc4b8080160a4e56933b0402133da4/playlist.m3u8
+#EXTINF:0,ТВЦ
+#EXTGRP:Общие
+http://tvc-hls.cdnvideo.ru/tvc-res/smil:vd9221_2.smil/chunklist_b1703000.m3u8
+#EXTINF:0,Рен ТВ International
+#EXTGRP:Общие
+https://sc.id-tv.kz/RenTV_36_37.m3u8
+#EXTINF:0,РБК ТВ
+#EXTGRP:Общие
+http://online.video.rbc.ru/online/rbctv_576p/index.m3u8
+#EXTINF:0,Мульт
+#EXTGRP:Детские
+https://autopilot.catcast.tv/content/38850/index.m3u8
+#EXTINF:0,O!
+#EXTGRP:Детские
+https://sc.id-tv.kz/o_34_35.m3u8
+#EXTINF:0,Рыжий
+#EXTGRP:Детские
+http://serv30.vintera.tv:8081/detskiy/ryzhiy_08/playlist.m3u8
+#EXTINF:0,Смайлик ТВ HD
+#EXTGRP:Детские
+http://62.32.67.187:1935/WEB_Smilik/Smilik.stream/playlist.m3u8
+#EXTINF:0,TiJi
+#EXTGRP:Детские
+http://194.190.78.91:8080/TiJi_OT/video.m3u8
+#EXTINF:0,Discovery Channel FHD
+#EXTGRP:Документальные
+http://46.34.209.244:80/btv/SWM/discovery_hd/discovery_hd_1080p_5000kbps.m3u8
+#EXTINF:0,National Geographic FHD
+#EXTGRP:Документальные
+http://46.34.209.244:80/btv/SWM/NatGeo_channel/NatGeo_channel_1080p_5000kbps.m3u8
+#EXTINF:0,Nat Geo Wild FHD
+#EXTGRP:Документальные
+http://46.34.209.244:80/btv/SWM/NatGeo_Wild/NatGeo_Wild_1080p_5000kbps.m3u8
+#EXTINF:0,National Geographic Wild HD
+#EXTGRP:Документальные
+https://sc.id-tv.kz/NatGeoWildHD_34_35.m3u8
+#EXTINF:0,HDL FHD
+#EXTGRP:Документальные
+http://46.34.209.244:80/btv/SWM/HDLife/HDLife_1080p_5000kbps.m3u8
+#EXTINF:0,Animal Planet FHD
+#EXTGRP:Документальные
+http://46.34.209.244:80/btv/SWM/animal_hd/animal_hd_1080p_5000kbps.m3u8
+#EXTINF:0,Муз ТВ
+#EXTGRP:Музыкальные
+http://ott-cdn.ucom.am/s28/04.m3u8
+#EXTINF:0,Discovery Channel FHD
+#EXTGRP:Музыкальные
+http://46.34.209.244:80/btv/SWM/discovery_hd/discovery_hd_1080p_5000kbps.m3u8

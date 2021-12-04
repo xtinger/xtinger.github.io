@@ -1,0 +1,620 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FF1B00272749C94A006AE2BF /* ss_playlist_20190904.m3u in Resources */ = {isa = PBXBuildFile; fileRef = FF1B001C2749C94A006AE2BF /* ss_playlist_20190904.m3u */; };
+		FF1B00282749C94A006AE2BF /* listru.m3u in Resources */ = {isa = PBXBuildFile; fileRef = FF1B001D2749C94A006AE2BF /* listru.m3u */; };
+		FF1B00292749C94A006AE2BF /* iptvlist.ru-russia-2020-10-25.m3u in Resources */ = {isa = PBXBuildFile; fileRef = FF1B001E2749C94A006AE2BF /* iptvlist.ru-russia-2020-10-25.m3u */; };
+		FF1B002A2749C94A006AE2BF /* iptv.m3u in Resources */ = {isa = PBXBuildFile; fileRef = FF1B001F2749C94A006AE2BF /* iptv.m3u */; };
+		FF1B002B2749C94A006AE2BF /* novemberr.m3u in Resources */ = {isa = PBXBuildFile; fileRef = FF1B00202749C94A006AE2BF /* novemberr.m3u */; };
+		FF1B002C2749C94A006AE2BF /* xtinger_Main.m3u8 in Resources */ = {isa = PBXBuildFile; fileRef = FF1B00212749C94A006AE2BF /* xtinger_Main.m3u8 */; };
+		FF1B002D2749C94A006AE2BF /* iptvchannels.m3u in Resources */ = {isa = PBXBuildFile; fileRef = FF1B00222749C94A006AE2BF /* iptvchannels.m3u */; };
+		FF1B002E2749C94A006AE2BF /* iptvfull.m3u in Resources */ = {isa = PBXBuildFile; fileRef = FF1B00232749C94A006AE2BF /* iptvfull.m3u */; };
+		FF1B002F2749C94A006AE2BF /* RuCTK.m3u in Resources */ = {isa = PBXBuildFile; fileRef = FF1B00242749C94A006AE2BF /* RuCTK.m3u */; };
+		FF1B00302749C94A006AE2BF /* v.m3u in Resources */ = {isa = PBXBuildFile; fileRef = FF1B00252749C94A006AE2BF /* v.m3u */; };
+		FF1B00312749C94A006AE2BF /* 2021-04.m3u in Resources */ = {isa = PBXBuildFile; fileRef = FF1B00262749C94A006AE2BF /* 2021-04.m3u */; };
+		FF1B00332749C9C5006AE2BF /* УТБ060921.m3u in Resources */ = {isa = PBXBuildFile; fileRef = FF1B00322749C9C5006AE2BF /* УТБ060921.m3u */; };
+		FF1B00372749CBEF006AE2BF /* YandexWeb.m3u in Resources */ = {isa = PBXBuildFile; fileRef = FF1B00362749CBEF006AE2BF /* YandexWeb.m3u */; };
+		FF1B003B274EFDEB006AE2BF /* denis-iptv.m3u in Resources */ = {isa = PBXBuildFile; fileRef = FF1B003A274EFDE7006AE2BF /* denis-iptv.m3u */; };
+		FF1B003E275B800D006AE2BF /* denis-iptv.m3u in Resources */ = {isa = PBXBuildFile; fileRef = FF1B003D275B800D006AE2BF /* denis-iptv.m3u */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FF1B00082749C8C5006AE2BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF1BFFDF2749C8C0006AE2BF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF1BFFE62749C8C0006AE2BF;
+			remoteInfo = IPTV;
+		};
+		FF1BFFFE2749C8C5006AE2BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF1BFFDF2749C8C0006AE2BF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF1BFFE62749C8C0006AE2BF;
+			remoteInfo = IPTV;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FF1B00072749C8C5006AE2BF /* IPTVUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IPTVUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF1B001C2749C94A006AE2BF /* ss_playlist_20190904.m3u */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ss_playlist_20190904.m3u; sourceTree = "<group>"; };
+		FF1B001D2749C94A006AE2BF /* listru.m3u */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = listru.m3u; sourceTree = "<group>"; };
+		FF1B001E2749C94A006AE2BF /* iptvlist.ru-russia-2020-10-25.m3u */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "iptvlist.ru-russia-2020-10-25.m3u"; sourceTree = "<group>"; };
+		FF1B001F2749C94A006AE2BF /* iptv.m3u */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = iptv.m3u; sourceTree = "<group>"; };
+		FF1B00202749C94A006AE2BF /* novemberr.m3u */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = novemberr.m3u; sourceTree = "<group>"; };
+		FF1B00212749C94A006AE2BF /* xtinger_Main.m3u8 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = xtinger_Main.m3u8; sourceTree = "<group>"; };
+		FF1B00222749C94A006AE2BF /* iptvchannels.m3u */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = iptvchannels.m3u; sourceTree = "<group>"; };
+		FF1B00232749C94A006AE2BF /* iptvfull.m3u */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = iptvfull.m3u; sourceTree = "<group>"; };
+		FF1B00242749C94A006AE2BF /* RuCTK.m3u */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = RuCTK.m3u; sourceTree = "<group>"; };
+		FF1B00252749C94A006AE2BF /* v.m3u */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = v.m3u; sourceTree = "<group>"; };
+		FF1B00262749C94A006AE2BF /* 2021-04.m3u */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "2021-04.m3u"; sourceTree = "<group>"; };
+		FF1B00322749C9C5006AE2BF /* УТБ060921.m3u */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "УТБ060921.m3u"; sourceTree = "<group>"; };
+		FF1B00362749CBEF006AE2BF /* YandexWeb.m3u */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = YandexWeb.m3u; sourceTree = "<group>"; };
+		FF1B003A274EFDE7006AE2BF /* denis-iptv.m3u */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "denis-iptv.m3u"; path = "../../../../Volumes/Disk2/cloud-sync/google-drive/IPTV/denis-iptv.m3u"; sourceTree = "<group>"; };
+		FF1B003D275B800D006AE2BF /* denis-iptv.m3u */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "denis-iptv.m3u"; sourceTree = "<group>"; };
+		FF1BFFE72749C8C0006AE2BF /* IPTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IPTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF1BFFFD2749C8C5006AE2BF /* IPTVTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IPTVTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF1B00042749C8C5006AE2BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF1BFFE42749C8C0006AE2BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF1BFFFA2749C8C5006AE2BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FF1B003C275B7FD6006AE2BF /* Output */ = {
+			isa = PBXGroup;
+			children = (
+				FF1B003D275B800D006AE2BF /* denis-iptv.m3u */,
+			);
+			path = Output;
+			sourceTree = "<group>";
+		};
+		FF1BFFDE2749C8C0006AE2BF = {
+			isa = PBXGroup;
+			children = (
+				FF1B003A274EFDE7006AE2BF /* denis-iptv.m3u */,
+				FF1BFFE92749C8C0006AE2BF /* IPTV */,
+				FF1BFFE82749C8C0006AE2BF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FF1BFFE82749C8C0006AE2BF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF1BFFE72749C8C0006AE2BF /* IPTV.app */,
+				FF1BFFFD2749C8C5006AE2BF /* IPTVTests.xctest */,
+				FF1B00072749C8C5006AE2BF /* IPTVUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF1BFFE92749C8C0006AE2BF /* IPTV */ = {
+			isa = PBXGroup;
+			children = (
+				FF1B003C275B7FD6006AE2BF /* Output */,
+				FF1B00322749C9C5006AE2BF /* УТБ060921.m3u */,
+				FF1B00262749C94A006AE2BF /* 2021-04.m3u */,
+				FF1B001F2749C94A006AE2BF /* iptv.m3u */,
+				FF1B00222749C94A006AE2BF /* iptvchannels.m3u */,
+				FF1B00232749C94A006AE2BF /* iptvfull.m3u */,
+				FF1B001E2749C94A006AE2BF /* iptvlist.ru-russia-2020-10-25.m3u */,
+				FF1B001D2749C94A006AE2BF /* listru.m3u */,
+				FF1B00202749C94A006AE2BF /* novemberr.m3u */,
+				FF1B00242749C94A006AE2BF /* RuCTK.m3u */,
+				FF1B001C2749C94A006AE2BF /* ss_playlist_20190904.m3u */,
+				FF1B00252749C94A006AE2BF /* v.m3u */,
+				FF1B00212749C94A006AE2BF /* xtinger_Main.m3u8 */,
+				FF1B00362749CBEF006AE2BF /* YandexWeb.m3u */,
+			);
+			path = IPTV;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF1B00062749C8C5006AE2BF /* IPTVUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF1B00172749C8C5006AE2BF /* Build configuration list for PBXNativeTarget "IPTVUITests" */;
+			buildPhases = (
+				FF1B00032749C8C5006AE2BF /* Sources */,
+				FF1B00042749C8C5006AE2BF /* Frameworks */,
+				FF1B00052749C8C5006AE2BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF1B00092749C8C5006AE2BF /* PBXTargetDependency */,
+			);
+			name = IPTVUITests;
+			productName = IPTVUITests;
+			productReference = FF1B00072749C8C5006AE2BF /* IPTVUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		FF1BFFE62749C8C0006AE2BF /* IPTV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF1B00112749C8C5006AE2BF /* Build configuration list for PBXNativeTarget "IPTV" */;
+			buildPhases = (
+				FF1BFFE32749C8C0006AE2BF /* Sources */,
+				FF1BFFE42749C8C0006AE2BF /* Frameworks */,
+				FF1BFFE52749C8C0006AE2BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IPTV;
+			productName = IPTV;
+			productReference = FF1BFFE72749C8C0006AE2BF /* IPTV.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FF1BFFFC2749C8C5006AE2BF /* IPTVTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF1B00142749C8C5006AE2BF /* Build configuration list for PBXNativeTarget "IPTVTests" */;
+			buildPhases = (
+				FF1BFFF92749C8C5006AE2BF /* Sources */,
+				FF1BFFFA2749C8C5006AE2BF /* Frameworks */,
+				FF1BFFFB2749C8C5006AE2BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF1BFFFF2749C8C5006AE2BF /* PBXTargetDependency */,
+			);
+			name = IPTVTests;
+			productName = IPTVTests;
+			productReference = FF1BFFFD2749C8C5006AE2BF /* IPTVTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF1BFFDF2749C8C0006AE2BF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					FF1B00062749C8C5006AE2BF = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = FF1BFFE62749C8C0006AE2BF;
+					};
+					FF1BFFE62749C8C0006AE2BF = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					FF1BFFFC2749C8C5006AE2BF = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = FF1BFFE62749C8C0006AE2BF;
+					};
+				};
+			};
+			buildConfigurationList = FF1BFFE22749C8C0006AE2BF /* Build configuration list for PBXProject "IPTV" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FF1BFFDE2749C8C0006AE2BF;
+			productRefGroup = FF1BFFE82749C8C0006AE2BF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF1BFFE62749C8C0006AE2BF /* IPTV */,
+				FF1BFFFC2749C8C5006AE2BF /* IPTVTests */,
+				FF1B00062749C8C5006AE2BF /* IPTVUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF1B00052749C8C5006AE2BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF1BFFE52749C8C0006AE2BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF1B00312749C94A006AE2BF /* 2021-04.m3u in Resources */,
+				FF1B00302749C94A006AE2BF /* v.m3u in Resources */,
+				FF1B00272749C94A006AE2BF /* ss_playlist_20190904.m3u in Resources */,
+				FF1B002F2749C94A006AE2BF /* RuCTK.m3u in Resources */,
+				FF1B00292749C94A006AE2BF /* iptvlist.ru-russia-2020-10-25.m3u in Resources */,
+				FF1B002D2749C94A006AE2BF /* iptvchannels.m3u in Resources */,
+				FF1B003E275B800D006AE2BF /* denis-iptv.m3u in Resources */,
+				FF1B003B274EFDEB006AE2BF /* denis-iptv.m3u in Resources */,
+				FF1B002B2749C94A006AE2BF /* novemberr.m3u in Resources */,
+				FF1B00332749C9C5006AE2BF /* УТБ060921.m3u in Resources */,
+				FF1B00282749C94A006AE2BF /* listru.m3u in Resources */,
+				FF1B002C2749C94A006AE2BF /* xtinger_Main.m3u8 in Resources */,
+				FF1B002A2749C94A006AE2BF /* iptv.m3u in Resources */,
+				FF1B002E2749C94A006AE2BF /* iptvfull.m3u in Resources */,
+				FF1B00372749CBEF006AE2BF /* YandexWeb.m3u in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF1BFFFB2749C8C5006AE2BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF1B00032749C8C5006AE2BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF1BFFE32749C8C0006AE2BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF1BFFF92749C8C5006AE2BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FF1B00092749C8C5006AE2BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF1BFFE62749C8C0006AE2BF /* IPTV */;
+			targetProxy = FF1B00082749C8C5006AE2BF /* PBXContainerItemProxy */;
+		};
+		FF1BFFFF2749C8C5006AE2BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF1BFFE62749C8C0006AE2BF /* IPTV */;
+			targetProxy = FF1BFFFE2749C8C5006AE2BF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FF1B000F2749C8C5006AE2BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FF1B00102749C8C5006AE2BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FF1B00122749C8C5006AE2BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8BH466882G;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = IPTV/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.denisvoronov.IPTV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FF1B00132749C8C5006AE2BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8BH466882G;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = IPTV/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.denisvoronov.IPTV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FF1B00152749C8C5006AE2BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8BH466882G;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.denisvoronov.IPTVTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IPTV.app/IPTV";
+			};
+			name = Debug;
+		};
+		FF1B00162749C8C5006AE2BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8BH466882G;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.denisvoronov.IPTVTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IPTV.app/IPTV";
+			};
+			name = Release;
+		};
+		FF1B00182749C8C5006AE2BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8BH466882G;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.denisvoronov.IPTVUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = IPTV;
+			};
+			name = Debug;
+		};
+		FF1B00192749C8C5006AE2BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8BH466882G;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.denisvoronov.IPTVUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = IPTV;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF1B00112749C8C5006AE2BF /* Build configuration list for PBXNativeTarget "IPTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF1B00122749C8C5006AE2BF /* Debug */,
+				FF1B00132749C8C5006AE2BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF1B00142749C8C5006AE2BF /* Build configuration list for PBXNativeTarget "IPTVTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF1B00152749C8C5006AE2BF /* Debug */,
+				FF1B00162749C8C5006AE2BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF1B00172749C8C5006AE2BF /* Build configuration list for PBXNativeTarget "IPTVUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF1B00182749C8C5006AE2BF /* Debug */,
+				FF1B00192749C8C5006AE2BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF1BFFE22749C8C0006AE2BF /* Build configuration list for PBXProject "IPTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF1B000F2749C8C5006AE2BF /* Debug */,
+				FF1B00102749C8C5006AE2BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FF1BFFDF2749C8C0006AE2BF /* Project object */;
+}
