@@ -1,0 +1,351 @@
+﻿#EXTM3U url-tvg="http://www.teleguide.info/download/new3/jtv.zip" deinterlace=1  tvg-logo="http://46.151.151.245/logo/%name%.png"
+
+
+#EXTINF:-1,Первый канал
+http://tv.ttk.mx:9000
+#EXTINF:-1,Россия 1
+http://tv.ttk.mx:9001
+#EXTINF:-1 tvg-name="Матч ТВ" epgid="!2060",Матч ТВ
+http://tv.ttk.mx:9002
+#EXTINF:-1,НТВ
+http://tv.ttk.mx:9003
+#EXTINF:-1 tvg-name="Пятый канал" epgid="!963",Пятый канал
+http://tv.ttk.mx:9004
+#EXTINF:-1 tvg-name="Россия Культура" epgid="!1139",Россия Культура
+http://tv.ttk.mx:9005
+#EXTINF:-1,Россия 24
+http://tv.ttk.mx:9006
+#EXTINF:-1 tvg-name="Карусель" epgid="!1162",Карусель
+http://tv.ttk.mx:9007
+#EXTINF:-1 tvg-name="ОТР" epgid="!1670",ОТР
+http://tv.ttk.mx:9008
+#EXTINF:-1 tvg-name="ТВЦ" epgid="!1389",ТВЦ
+http://tv.ttk.mx:9009
+#EXTINF:-1 tvg-name="РЕН ТВ" epgid="!1158",РЕН ТВ
+http://tv.ttk.mx:9010
+#EXTINF:-1,Спас ТВ
+http://tv.ttk.mx:9011
+#EXTINF:-1 tvg-name="СТС" epgid="!1112",СТС
+http://tv.ttk.mx:9012
+#EXTINF:-1 tvg-name="Домашний" epgid="!1051",Домашний
+http://tv.ttk.mx:9013
+#EXTINF:-1 tvg-name="ТВ-3" epgid="!1383",ТВ-3
+http://tv.ttk.mx:9014
+#EXTINF:-1 tvg-name="Пятница" epgid="!1671",Пятница
+http://tv.ttk.mx:9015
+#EXTINF:-1,Звезда
+http://tv.ttk.mx:9016
+#EXTINF:-1 tvg-name="Мир" epgid="!717",Мир
+http://tv.ttk.mx:9017
+#EXTINF:-1,ТНТ
+http://tv.ttk.mx:9018
+#EXTINF:-1,Муз-ТВ
+http://tv.ttk.mx:9019
+
+
+
+#EXTINF:-1,Обзорная камера. Ялта-1
+http://tv.ttk.mx:9126
+#EXTINF:-1,Обзорная камера. Ялта-2
+http://tv.ttk.mx:9125
+#EXTINF:-1,Обзорная камера. Мемориал "Красный"
+http://tv.ttk.mx:9124
+#EXTINF:-1,Обзорная камера. Симферополь-ГРЭС
+http://tv.ttk.mx:9123
+#EXTINF:-1,Обзорная камера. Мирное-Спортплощадка1
+http://tv.ttk.mx:9166
+
+#EXTINF:-1,Обзорная камера. Мирное-Спортплощадка2
+http://tv.ttk.mx:9168
+#EXTINF:-1,Обзорная камера. Симферополь. Соборная мечеть
+http://tv.ttk.mx:9167
+
+#EXTINF:-1,Обзорная камера. Черноморское -Спортплощадка
+http://tv.ttk.mx:9170
+#EXTINF:-1,Обзорная камера. Черноморское -Пляж
+http://tv.ttk.mx:9175
+#EXTINF:-1,Обзорная камера. Николаевка
+http://tv.ttk.mx:9174
+#EXTINF:-1,Обзорная камера. Судак
+http://tv.ttk.mx:9176
+#EXTINF:-1,Обзорная камера. Судак Пляж
+http://tv.ttk.mx:9178
+
+
+#EXTINF:-1,Крым 24
+http://tv.ttk.mx:9024
+#EXTINF:-1,Крым 1
+http://tv.ttk.mx:9020
+#EXTINF:-1,ShoppingLive
+http://tv.ttk.mx:9132
+#EXTINF:-1,Евпатория 24
+http://tv.ttk.mx:9177
+#EXTINF:-1,555 Алушта
+http://tv.ttk.mx:9148
+#EXTINF:-1,СТМ
+http://tv.ttk.mx:9145
+#EXTINF:-1,Миллет
+http://tv.ttk.mx:9021
+#EXTINF:-1,Симферополь 24
+http://tv.ttk.mx:9180
+#EXTINF:-1,Легендарный 24
+http://tv.ttk.mx:9179
+
+
+
+
+
+#EXTINF:-1,Уникум
+http://tv.ttk.mx:9026
+#EXTINF:-1,Мульт
+http://tv.ttk.mx:9054
+#EXTINF:-1,Детский мир
+http://tv.ttk.mx:9063
+#EXTINF:-1,O!
+http://tv.ttk.mx:9092
+#EXTINF:-1,Ani
+http://tv.ttk.mx:9049
+#EXTINF:-1,Мульт и музыка
+http://tv.ttk.mx:9045
+
+
+
+#EXTINF:-1,Мосфильм. Золотая коллекция
+http://tv.ttk.mx:9169
+#EXTINF:-1,Дом Кино
+http://tv.ttk.mx:9079
+#EXTINF:-1,Комедия
+http://tv.ttk.mx:9050
+#EXTINF:-1,Русский детектив
+http://tv.ttk.mx:9051
+#EXTINF:-1,Кино ТВ
+http://tv.ttk.mx:9046
+#EXTINF:-1,Кинопоказ
+http://tv.ttk.mx:9150
+#EXTINF:-1,Русский иллюзион
+http://tv.ttk.mx:9027
+#EXTINF:-1,Иллюзион+
+http://tv.ttk.mx:9028
+#EXTINF:-1,Еврокино
+http://tv.ttk.mx:9030
+#EXTINF:-1,Русский бестселлер
+http://tv.ttk.mx:9043
+#EXTINF:-1,Русский роман
+http://tv.ttk.mx:9042
+#EXTINF:-1,Настоящее страшное телевидение
+http://tv.ttk.mx:9057
+#EXTINF:-1,TV XXI
+http://tv.ttk.mx:9067
+#EXTINF:-1,Cinema
+http://tv.ttk.mx:9053
+#EXTINF:-1,Победа
+http://tv.ttk.mx:9149
+#EXTINF:-1,Киносемья
+http://tv.ttk.mx:9161
+#EXTINF:-1,Кинопремьера
+http://tv.ttk.mx:9162
+#EXTINF:-1,Кинохит
+http://tv.ttk.mx:9163
+#EXTINF:-1,Киносвидание
+http://tv.ttk.mx:9164
+#EXTINF:-1,Мужское кино
+http://tv.ttk.mx:9165
+#EXTINF:-1,А1
+http://tv.ttk.mx:9155
+#EXTINF:-1,А2
+http://tv.ttk.mx:9156
+#EXTINF:-1,НТВ-хит
+http://tv.ttk.mx:9173
+
+
+#EXTINF:-1,RU.TV
+http://tv.ttk.mx:9089
+#EXTINF:-1,Музыка Первого
+http://tv.ttk.mx:9078
+#EXTINF:-1,ТНТ-Музыка
+http://tv.ttk.mx:9023
+#EXTINF:-1,О!2
+http://tv.ttk.mx:9122
+#EXTINF:-1,Шансон
+http://tv.ttk.mx:9062
+#EXTINF:-1,Восток ТВ
+http://tv.ttk.mx:9064
+
+
+#EXTINF:-1,Охота и рыбалка
+http://tv.ttk.mx:9034
+#EXTINF:-1,Зоо Парк
+http://tv.ttk.mx:9029
+#EXTINF:-1,Домашние животные
+http://tv.ttk.mx:9035
+#EXTINF:-1,Авто 24
+http://tv.ttk.mx:9031
+#EXTINF:-1,Драйв
+http://tv.ttk.mx:9039
+#EXTINF:-1,Ретро
+http://tv.ttk.mx:9032
+#EXTINF:-1,Психология 21
+http://tv.ttk.mx:9033
+#EXTINF:-1,Здоровое ТВ
+http://tv.ttk.mx:9036
+#EXTINF:-1,Доктор
+http://tv.ttk.mx:9058
+#EXTINF:-1,Вопросы и ответы
+http://tv.ttk.mx:9038
+#EXTINF:-1,Наука 2.0
+http://tv.ttk.mx:9041
+
+
+
+
+#EXTINF:-1,История
+http://tv.ttk.mx:9048
+#EXTINF:-1,Время
+http://tv.ttk.mx:9080
+#EXTINF:-1,Ратник
+http://tv.ttk.mx:9106
+
+
+
+#EXTINF:-1,Мама
+http://tv.ttk.mx:9055
+#EXTINF:-1,Техно 24
+http://tv.ttk.mx:9056
+#EXTINF:-1,Inter+
+http://tv.ttk.mx:9060
+#EXTINF:-1,Театр
+http://tv.ttk.mx:9061
+#EXTINF:-1,Galaxy
+http://tv.ttk.mx:9071
+
+
+#EXTINF:-1,Бобер
+http://tv.ttk.mx:9077
+#EXTINF:-1,Тномер
+http://tv.ttk.mx:9103
+#EXTINF:-1,Загородная жизнь
+http://tv.ttk.mx:9157
+#EXTINF:-1,Усадьба ТВ
+http://tv.ttk.mx:9037
+
+
+
+#EXTINF:-1,Телекафе
+http://tv.ttk.mx:9081
+#EXTINF:-1,Поехали
+http://tv.ttk.mx:9082
+#EXTINF:-1,Моя планета
+http://tv.ttk.mx:9040
+#EXTINF:-1,Belarus 24
+http://tv.ttk.mx:9090
+#EXTINF:-1,Белрос
+http://tv.ttk.mx:9139
+#EXTINF:-1,Moskva Doverie
+http://tv.ttk.mx:9091
+#EXTINF:-1,Большая Азия
+http://tv.ttk.mx:9146
+#EXTINF:-1,Москва-24
+http://tv.ttk.mx:9097
+#EXTINF:-1,ЛДПР-ТВ
+http://tv.ttk.mx:9101
+#EXTINF:-1,Красная линия
+http://tv.ttk.mx:9102
+
+
+
+
+#EXTINF:-1,Сарафан
+http://tv.ttk.mx:9044
+#EXTINF:-1,Ю
+http://tv.ttk.mx:9072
+#EXTINF:-1,СТС Love
+http://tv.ttk.mx:9104
+#EXTINF:-1,ТНТ4
+http://tv.ttk.mx:9098
+#EXTINF:-1,Super
+http://tv.ttk.mx:9105
+#EXTINF:-1,Че
+http://tv.ttk.mx:9141
+#EXTINF:-1,Точка отрыва
+http://tv.ttk.mx:9151
+
+
+
+#EXTINF:-1,Боец
+http://tv.ttk.mx:9107
+#EXTINF:-1,Футбол
+http://tv.ttk.mx:9065
+#EXTINF:-1,Матч ИГРА
+http://tv.ttk.mx:9152
+#EXTINF:-1,Матч АРЕНА
+http://tv.ttk.mx:9153
+#EXTINF:-1,Матч СТРАНА
+http://tv.ttk.mx:9154
+#EXTINF:-1,Матч футбол1 SD
+http://tv.ttk.mx:9108
+#EXTINF:-1,Матч футбол2 SD
+http://tv.ttk.mx:9111
+#EXTINF:-1,Матч футбол3 SD
+http://tv.ttk.mx:9112
+
+
+
+
+#EXTINF:-1,Точка ТВ
+http://tv.ttk.mx:9073
+#EXTINF:-1,Подмосковье 360
+http://tv.ttk.mx:9052
+#EXTINF:-1,Мир24
+http://tv.ttk.mx:9025
+#EXTINF:-1,РБК
+http://tv.ttk.mx:9096
+#EXTINF:-1,Канал 8
+http://tv.ttk.mx:9134
+#EXTINF:-1,РТ Eng 
+http://tv.ttk.mx:9130
+#EXTINF:-1,7 ТВ
+http://tv.ttk.mx:9172
+
+
+
+
+
+#EXTINF:-1,Первый HD
+http://tv.ttk.mx:9093
+#EXTINF:-1,Россия-1 HD
+http://tv.ttk.mx:9075
+#EXTINF:-1,Матч ТВ HD
+http://tv.ttk.mx:9094
+#EXTINF:-1,НТВ HD
+http://tv.ttk.mx:9127
+#EXTINF:-1,ТНТ HD
+http://tv.ttk.mx:9128
+#EXTINF:-1,Telekanal 360 HD
+http://tv.ttk.mx:9088
+#EXTINF:-1,Russian Extreme TV HD
+http://tv.ttk.mx:9095
+#EXTINF:-1,Мульт HD
+http://tv.ttk.mx:9086
+#EXTINF:-1,DK Premium HD
+http://tv.ttk.mx:9084
+#EXTINF:-1,Кино ТВ HD
+http://tv.ttk.mx:9113
+#EXTINF:-1,Русский роман HD
+http://tv.ttk.mx:9085
+#EXTINF:-1,Живая природа HD
+http://tv.ttk.mx:9066
+#EXTINF:-1,Planeta HD
+http://tv.ttk.mx:9087
+#EXTINF:-1,РТ ДОК HD
+http://tv.ttk.mx:9100
+#EXTINF:-1,МИР HD
+http://tv.ttk.mx:9140
+#EXTINF:-1,Матч футбол1 HD
+http://tv.ttk.mx:9114
+#EXTINF:-1,Матч футбол2 HD
+http://tv.ttk.mx:9115
+#EXTINF:-1,Матч футбол3 HD
+http://tv.ttk.mx:9116
+
+#EXTINF:-1,Матч Премьер
+http://tv.ttk.mx:10000

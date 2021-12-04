@@ -1,0 +1,105 @@
+#EXTM3U
+#EXTINF:0 type="stream" channelId="1" aspect-ratio="16:9" size="Medium" background="#4833c5", Первый канал
+http://188.35.9.5:10005/stolen/103r/imposter.rar
+#EXTINF:0 type="stream" channelId="782" group="новости" shift="4" aspect-ratio="16:9" size="Small" background="#475ca2", Россия РТР
+http://212.112.101.69:8081/stream06/output.m3u8
+#EXTINF:0 type="stream" channelId="2" group="unsorted" aspect-ratio="16:9" size="Medium" background="#4758e5", Россия 1
+http://188.128.15.118:8080/play/a2
+#EXTINF:0 type="stream" channelId="-1" aspect-ratio="16:9" size="Small" background="rgba(54,61,181,0)", Россия 1 +6 (Чита)
+http://tv-online.gtrkchita.ru:8080/hls/r1-chita_360p.m3u8
+#EXTINF:0 type="stream" channelId="10" group="Общие" aspect-ratio="16:9" size="Small" background="#e40b86", Россия 24
+http://a3569458063-s26881.cdn.ngenix.net/live/smil:r24.smil/chunklist_b1200000.m3u8
+#EXTINF:0 type="stream" channelId="-1" shift="1" aspect-ratio="16:9" size="Small" background="rgba(59,107,213,1)", Рен ТВ International
+http://188.128.15.118:8080/play/a7
+#EXTINF:0 type="stream" channelId="11" group="Познавательные" background="rgba(205,38,241,1)", Рен ТВ
+http://ad-hls-rentv.cdnvideo.ru/ren/smil:ren.smil/playlist.m3u8
+#EXTINF:0 type="stream" channelId="11" group="unsorted" background="rgba(205,38,241,1)", Рен ТВ
+https://sc.id-tv.kz/RenTV_38_39.m3u8
+#EXTINF:0 type="stream" channelId="17" group="unsorted" aspect-ratio="16:9" size="Small" background="#0bc3e4", звезда
+http://188.128.15.118:8080/play/a55
+#EXTINF:0 type="stream" channelId="-1" size="Small" background="#e85872", Звезда HD
+http://livezvezda.cdnvideo.ru/zv/zvezda1.sdp/playlist.m3u8
+#EXTINF:0 type="stream" channelId="13" group="unsorted" background="rgba(150,79,226,1)", твц
+http://tvc-hls.cdnvideo.ru/tvc-p222/smil:tvc_p11.smil/chunklist_b1703000.m3u8
+#EXTINF:0 type="stream" channelId="8" group="unsorted" background="#dd4ae2", ТВ3
+http://188.242.133.94:443/udp/239.239.2.4:5239
+#EXTINF:0 type="stream" channelId="6" group="unsorted" background="rgba(124,201,86,1)", НТВ
+http://ruip.tv/8711/video.m3u8?token=u06qiW
+#EXTINF:0 type="stream" channelId="6" background="#80ea95", НТВ
+http://188.128.15.118:8080/play/a211
+#EXTINF:0 type="stream" channelId="-1" group="unsorted", НТВ Молдова
+http://93.115.137.166/hls/ntvm.m3u8
+#EXTINF:0 type="stream" channelId="68" background="#5a47a2", Дом Кино
+http://188.128.15.118:8080/play/a118
+#EXTINF:0 type="stream" channelId="-1" group="http://ott-cdn.ucom.am/s47/index.m3u8" aspect-ratio="2,39:1" background="#e73737", Победа  тв
+http://ott-cdn.ucom.am/s47/index.m3u8
+#EXTINF:0 type="stream" channelId="-1" group="unsorted" background="rgba(241,38,107,1)", Красная линия ТВ
+http://kprf-htlive.cdn.ngenix.net/live/_definst_/stream_high/playlist.m3u8
+#EXTINF:0 type="stream" channelId="-1" background="#e12a18", CCCP
+https://v3.catcast.me/contentv2/36506/index.m3u8
+#EXTINF:0 type="stream" channelId="450" group="unsorted", НТВ мир
+http://ott-cdn.ucom.am/s17/index.m3u8
+#EXTINF:0 type="stream" channelId="3161" group="unsorted", НТВ стиль
+http://88.216.48.14:80/ntvstyle/live.m3u8
+#EXTINF:0 type="stream" channelId="-1" background="#daf45f", Пятница HD
+https://vs6.vcdn.biz/5b39f9d7689deb889ec1ee82c2c05328_megogo/vod/fs/o/16283521/u_sid/0/u_uid/0/u_vod/0/u_device/cms_html5/u_srvc/28561/type.live/chunklist-sid732518808-b4000000.m3u8
+#EXTINF:0 type="stream" channelId="806" aspect-ratio="16:9" size="Medium" background="#47a247", СТС International
+https://sc.id-tv.kz/STS_38_39.m3u8
+#EXTINF:0 type="stream" channelId="164" group="unsorted" background="#909dd8", Nat Geo Wild
+http://46.150.145.159:81/play/a00e
+#EXTINF:0 type="stream" channelId="56" background="#c35373", National Geographic
+http://ruip.tv/4998/video.m3u8?token=u06qiW
+#EXTINF:0 type="stream" channelId="50" background="#bd379e", Animal Planet
+http://tvport.it-tele.net:8000/b9822568a5d05813b058193c94a27c39
+#EXTINF:0 type="stream" channelId="341" background="#f2fc58", Discovery channel HD
+http://tvport.it-tele.net:8000/fae5e9752a49e0cebbdb07ca0f1abc60
+#EXTINF:0 type="stream" channelId="141" group="Украина" background="#b84ae2", Сарафан
+http://ott-cdn.ucom.am/s38/04.m3u8
+#EXTINF:0 type="stream" channelId="1789", СТРК HD
+http://sochi-strk.ru:1936/strk/strk.stream/playlist.m3u8
+#EXTINF:0 type="stream" channelId="-1" background="#6f99a4", 43 Канал Tyance HD
+http://sochi-strk.ru:1936/strk/43Kanal.stream/playlist.m3u8
+#EXTINF:0 type="stream" channelId="-1" group="unsorted" background="rgba(144,53,133,1)", тв  1000 русское
+http://212.112.101.69:8081/stream57/output.m3u8
+#EXTINF:0 type="stream" channelId="19" background="#c40735", Канал Disney
+http://78.107.248.201:4022/udp/233.33.210.7:5050
+#EXTINF:0 type="stream" channelId="-1" group="http://sc.id-tv.kz/Tan_36_37.m3u8" shift="2" aspect-ratio="16:9", ON! Пятница
+http://sc.id-tv.kz/Tan_36_37.m3u8
+#EXTINF:0 type="stream" channelId="-1" size="Medium" background="#6824d9", ТДК 42
+http://sc.id-tv.kz/TDK-42_38_39.m3u8
+#EXTINF:0 type="stream" channelId="-1" background="#7bb4e5", QAZSPORT HD
+http://77.245.98.22:8000/play/529/index.m3u8
+#EXTINF:0 type="stream" channelId="45" aspect-ratio="16:9" size="Medium" background="#b2276a", RU TV
+https://rutv.gcdn.co/streams/1410_95/480n/index.m3u8
+#EXTINF:0 type="stream" channelId="28" group="unsorted", Russian MusicBox
+http://serv25.vintera.tv:8081/test/rusmusbox/playlist.m3u8
+#EXTINF:0 type="stream" channelId="47" group="unsorted", Шансон ТВ
+http://hls.shansontv.cdnvideo.ru/shansontv/shansontv_hq.sdp/playlist.m3u8
+#EXTINF:0 type="stream" channelId="47", Шансон
+http://212.75.198.234:81/udp/239.255.42.50:1234
+#EXTINF:0 type="stream" channelId="25" group="Музыка", Bridge TV
+http://ott-cdn.ucom.am/s34/04.m3u8
+#EXTINF:0 type="stream" channelId="-1" group="unsorted", VIVA RUSSIA
+http://85.143.202.116/hls/viva.m3u8
+#EXTINF:0 type="stream" channelId="-1" group="unsorted", Retro Music Tv
+http://stream.mediawork.cz/retrotv//retrotvHQ1/playlist.m3u8
+#EXTINF:0 type="stream" channelId="-1" group="unsorted" aspect-ratio="16:9" size="Big", Сочи 24 HD
+http://serv30.vintera.tv:8081/sochi/maks24hd/playlist.m3u8
+#EXTINF:0 type="stream" channelId="26" group="Общие", ПЯТНИЦА
+http://ott-cdn.ucom.am/s50/04.m3u8
+#EXTINF:0 type="stream" channelId="-1" background="#c2ce73", Сила ТВ
+https://video-4-105.rutube.ru/stream/10114442/688f74345bd8fd610e7a762db2416058/tracks-v1a1/mono.m3u8
+#EXTINF:0 type="stream" channelId="157", МАТЧ! АРЕНА
+http://46.19.43.248:9981/stream/channelid/1313029335
+#EXTINF:0 type="stream" channelId="81", МАТЧ! БОЕЦ
+http://46.19.43.248:9981/stream/channelid/1585100965
+#EXTINF:0 type="stream" channelId="158", МАТЧ! ИГРА
+http://46.19.43.248:9981/stream/channelid/1405443465
+#EXTINF:0 type="stream" channelId="84", МАТЧ! НАШ СПОРТ
+http://46.19.43.248:9981/stream/channelid/1951989673
+#EXTINF:0 type="stream" channelId="3047" aspect-ratio="16:9" background="#2214cc", КВН
+http://109.248.236.41:4433/udp/238.1.1.111:1234
+#EXTINF:0 type="stream" channelId="-1", 
+http://sochi-strk.ru:1936/strk/43Kanal.stream/playlist.m3u8
+#EXTINF:0 type="stream" channelId="-1" logo="http://scansat.info/logo/%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D1%8F%201.png" aspect-ratio="16:9" background="http://scansat.info/logo/%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D1%8F%201.png", 
+https://i.imgur.com/NJ3SnU9.png\"", 43 Канал Tyance HD
