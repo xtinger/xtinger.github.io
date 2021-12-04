@@ -21,6 +21,7 @@
 		FF1B00332749C9C5006AE2BF /* УТБ060921.m3u in Resources */ = {isa = PBXBuildFile; fileRef = FF1B00322749C9C5006AE2BF /* УТБ060921.m3u */; };
 		FF1B00372749CBEF006AE2BF /* YandexWeb.m3u in Resources */ = {isa = PBXBuildFile; fileRef = FF1B00362749CBEF006AE2BF /* YandexWeb.m3u */; };
 		FF1B003B274EFDEB006AE2BF /* denis-iptv.m3u in Resources */ = {isa = PBXBuildFile; fileRef = FF1B003A274EFDE7006AE2BF /* denis-iptv.m3u */; };
+		FF1B003E275B800D006AE2BF /* denis-iptv.m3u in Resources */ = {isa = PBXBuildFile; fileRef = FF1B003D275B800D006AE2BF /* denis-iptv.m3u */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,7 @@
 		FF1B00322749C9C5006AE2BF /* УТБ060921.m3u */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "УТБ060921.m3u"; sourceTree = "<group>"; };
 		FF1B00362749CBEF006AE2BF /* YandexWeb.m3u */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = YandexWeb.m3u; sourceTree = "<group>"; };
 		FF1B003A274EFDE7006AE2BF /* denis-iptv.m3u */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "denis-iptv.m3u"; path = "../../../../Volumes/Disk2/cloud-sync/google-drive/IPTV/denis-iptv.m3u"; sourceTree = "<group>"; };
+		FF1B003D275B800D006AE2BF /* denis-iptv.m3u */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "denis-iptv.m3u"; sourceTree = "<group>"; };
 		FF1BFFE72749C8C0006AE2BF /* IPTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IPTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF1BFFFD2749C8C5006AE2BF /* IPTVTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IPTVTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -85,6 +87,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FF1B003C275B7FD6006AE2BF /* Output */ = {
+			isa = PBXGroup;
+			children = (
+				FF1B003D275B800D006AE2BF /* denis-iptv.m3u */,
+			);
+			path = Output;
+			sourceTree = "<group>";
+		};
 		FF1BFFDE2749C8C0006AE2BF = {
 			isa = PBXGroup;
 			children = (
@@ -107,6 +117,7 @@
 		FF1BFFE92749C8C0006AE2BF /* IPTV */ = {
 			isa = PBXGroup;
 			children = (
+				FF1B003C275B7FD6006AE2BF /* Output */,
 				FF1B00322749C9C5006AE2BF /* УТБ060921.m3u */,
 				FF1B00262749C94A006AE2BF /* 2021-04.m3u */,
 				FF1B001F2749C94A006AE2BF /* iptv.m3u */,
@@ -241,6 +252,7 @@
 				FF1B002F2749C94A006AE2BF /* RuCTK.m3u in Resources */,
 				FF1B00292749C94A006AE2BF /* iptvlist.ru-russia-2020-10-25.m3u in Resources */,
 				FF1B002D2749C94A006AE2BF /* iptvchannels.m3u in Resources */,
+				FF1B003E275B800D006AE2BF /* denis-iptv.m3u in Resources */,
 				FF1B003B274EFDEB006AE2BF /* denis-iptv.m3u in Resources */,
 				FF1B002B2749C94A006AE2BF /* novemberr.m3u in Resources */,
 				FF1B00332749C9C5006AE2BF /* УТБ060921.m3u in Resources */,
